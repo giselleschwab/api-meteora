@@ -1,6 +1,5 @@
 {
     "version": 2,
-    "public": true,
     "builds": [
       {
         "src": "api/server.js",
@@ -12,5 +11,6 @@
         "src": "/(.*)",
         "dest": "api/server.js"
       }
-    ]
+    ],
+    "files": ["db.json"]
   }
