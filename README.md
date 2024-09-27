@@ -1,37 +1,37 @@
 # Meteora E-commerce - API Mock
 
-Mock criado utilizando a biblioteca [json-server](https://github.com/typicode/json-server) para o desafio da Alura, para simular o funcionamento de um e-commerce fictício chamado Meteora. 
+Mock created using the json-server library for the Alura challenge, to simulate the operation of a fictional e-commerce called Meteora.
 
-## Instalação
-Siga os passos abaixo para instalar e executar essa API Mock.
+## Installation
+Follow the steps below to install and run this Mock API.
 
-1. Clone este repositório para o seu computador;
-2. Acesse o diretório do projeto:
+1. Clone this repository to your computer;
+2. Access the project directory:
   ```bash
    cd api-meteora
  ```
-3. Instale as dependências do projeto:
+3. Install the project dependencies:
 ```bash
     npm install
  ```
 
-## Executando o API Mock
-Após a instalação das dependências, você pode iniciar o servidor desse mock com o seguinte comando:
+## Running the Mock API
+After installing the dependencies, you can start the server for this mock with the following command:
 ```bash
     npm start
  ```
-## Endpoints disponíveis
+## Available Endpoints
 ### 1. Categories
 
-Este endpoint fornece informações sobre as categorias de produtos disponíveis no Meteora E-Commerce.
+This endpoint provides information about the available product categories in the Meteora E-Commerce.
 
 URL: `/categories`
 
-Método: GET
+Method: GET
 
-Retorno: Lista de categorias em formato JSON
+Response: List of categories in JSON format
 
-Exemplo de resposta:
+Example response:
 ```json
 {
     "categories": [
@@ -46,15 +46,15 @@ Exemplo de resposta:
 
 ### 2. Products
 
-Este endpoint fornece informações sobre os produtos disponíveis no Meteora E-Commerce.
+This endpoint provides information about the available products in the Meteora E-Commerce.
 
 URL: `/products`
 
-Método: GET
+Method: GET
 
-Retorno: Lista de produtos em formato JSON
+Response: List of products in JSON format
 
-Exemplo de resposta:
+Example response:
 ```json 
 {
  "products": [
@@ -82,3 +82,5 @@ Exemplo de resposta:
  }
 ```
 
+## Developed by: 
+Giselle Schwab
